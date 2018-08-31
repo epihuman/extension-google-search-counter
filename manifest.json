@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "Google result Counter",
+    "version": "1",
+    "content_scripts": [
+        {
+            "matches": ["http://www.google.com/*", "https://www.google.com/*"],
+            "js": ["content.js"]
+        }
+    ]
+}
